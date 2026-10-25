@@ -1,0 +1,97 @@
+[
+ {
+  "text": "5V",
+  "x": 138.45,
+  "y": 97.97,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "CS",
+  "x": 138.45,
+  "y": 100.51,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "MI",
+  "x": 138.45,
+  "y": 103.05,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "MO",
+  "x": 138.45,
+  "y": 105.59,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "SCK",
+  "x": 138.45,
+  "y": 108.13,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "3V3",
+  "x": 144.85,
+  "y": 97.97,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "SCL",
+  "x": 144.85,
+  "y": 100.51,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "SDA",
+  "x": 144.85,
+  "y": 103.05,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "INT",
+  "x": 144.85,
+  "y": 105.59,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "GND",
+  "x": 144.85,
+  "y": 108.13,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "EXT (J1)",
+  "x": 141.65,
+  "y": 95.6,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "J3: 1=A1 2=A2 3=B1 4=B2",
+  "x": 173.0,
+  "y": 85.1,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "5=3V3 6=5V 7,8=GND",
+  "x": 173.0,
+  "y": 87.0,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "github.com/the78mole/km271-wifi",
+  "x": 173.0,
+  "y": 88.9,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "JLCJLCJLCJLC",
+  "x": 175.75,
+  "y": 101.17
+ },
+ {
+  "text": "LED D10=DUP D9=SPD",
+  "x": 173.0,
+  "y": 83.2,
+  "layer": "B.SilkS"
+ }
+]

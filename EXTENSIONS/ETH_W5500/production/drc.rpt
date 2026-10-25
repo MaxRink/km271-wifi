@@ -1,0 +1,260 @@
+** Drc report for ETH_W5500.kicad_pcb **
+** Created on 2026-10-25T16:43:55 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 77 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(147.7000 mm, 106.9000 mm): Footprint C17
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(187.1375 mm, 109.1000 mm): Footprint C28
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(139.2375 mm, 95.3000 mm): Footprint C12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(184.6500 mm, 97.4625 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'the78mole'
+    Local override; warning
+    @(189.8500 mm, 100.3750 mm): Footprint J3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.1375 mm, 103.9500 mm): Footprint C26
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(191.3481 mm, 89.2472 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Jumper'
+    Local override; warning
+    @(193.6481 mm, 80.6972 mm): Footprint JP5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'the78mole'
+    Local override; warning
+    @(141.6500 mm, 103.0500 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(168.4875 mm, 94.3000 mm): Footprint C33
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(184.6481 mm, 107.5472 mm): Footprint R20
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(184.6481 mm, 104.1472 mm): Footprint C32
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(142.5875 mm, 95.3000 mm): Footprint C13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.1375 mm, 100.8500 mm): Footprint C3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Transformer_SMD'
+    Local override; warning
+    @(175.7531 mm, 101.1650 mm): Footprint TR1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'LED_SMD'
+    Local override; warning
+    @(159.1481 mm, 78.6222 mm): Footprint D10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(158.1000 mm, 96.1000 mm): Footprint R3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(195.0500 mm, 102.3000 mm): Footprint C34
+[lib_footprint_issues]: The current configuration does not include the footprint library 'the78mole'
+    Local override; warning
+    @(175.2000 mm, 79.4500 mm): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(177.3500 mm, 93.8000 mm): Footprint R18
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(154.7250 mm, 96.1000 mm): Footprint R1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.1375 mm, 105.5000 mm): Footprint C24
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(159.9375 mm, 108.0000 mm): Footprint C23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Crystal'
+    Local override; warning
+    @(153.0981 mm, 92.6972 mm): Footprint Y1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.1375 mm, 102.4000 mm): Footprint C30
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(159.1481 mm, 82.0722 mm): Footprint R10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(150.0000 mm, 109.4972 mm): Footprint L2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(195.1000 mm, 97.1375 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(149.4875 mm, 98.3000 mm): Footprint C14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(178.9000 mm, 93.8000 mm): Footprint R17
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.3731 mm, 82.0722 mm): Footprint C16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(163.0500 mm, 98.4000 mm): Footprint R2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(189.2106 mm, 83.6472 mm): Footprint C15
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(193.0356 mm, 83.6472 mm): Footprint C11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(183.0000 mm, 92.9000 mm): Footprint C31
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(187.1250 mm, 107.5500 mm): Footprint R16
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(170.2731 mm, 107.6500 mm): Footprint R6
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(164.3981 mm, 88.0472 mm): Footprint R22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(160.7731 mm, 82.0722 mm): Footprint R9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(180.4500 mm, 93.8000 mm): Footprint R19
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(195.0500 mm, 105.7250 mm): Footprint R21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(170.2731 mm, 109.2000 mm): Footprint R5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(153.8856 mm, 109.3972 mm): Footprint C25
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(145.4500 mm, 91.7500 mm): Footprint C8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(164.3981 mm, 86.4472 mm): Footprint R23
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFP'
+    Local override; warning
+    @(154.7500 mm, 103.3875 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'LED_SMD'
+    Local override; warning
+    @(160.7731 mm, 78.6222 mm): Footprint D9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(160.7500 mm, 91.7375 mm): Footprint C7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(159.9250 mm, 109.5500 mm): Footprint R4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(178.9481 mm, 105.8125 mm): Footprint R11
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(176.5375 mm, 103.2500 mm): Footprint C18
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(173.6500 mm, 108.5500 mm): Footprint C22
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(166.8231 mm, 100.3472 mm): Footprint R7
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Jumper'
+    Local override; warning
+    @(151.8000 mm, 100.5000 mm): Footprint JP3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(180.4981 mm, 105.8125 mm): Footprint C21
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Jumper'
+    Local override; warning
+    @(151.8000 mm, 103.1000 mm): Footprint JP2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(155.8000 mm, 101.0500 mm): Footprint C19
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(171.0481 mm, 105.8125 mm): Footprint R14
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Jumper'
+    Local override; warning
+    @(150.3500 mm, 95.9000 mm): Footprint JP4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(179.9231 mm, 103.2500 mm): Footprint R12
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(174.1481 mm, 105.8125 mm): Footprint R13
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(173.1625 mm, 103.2500 mm): Footprint C27
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Jumper'
+    Local override; warning
+    @(151.8000 mm, 105.6500 mm): Footprint JP1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(162.3000 mm, 103.0500 mm): Footprint C4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(193.6481 mm, 89.2472 mm): Footprint C9
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(189.0481 mm, 89.2597 mm): Footprint C10
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(166.8231 mm, 101.8972 mm): Footprint R8
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'
+    Local override; warning
+    @(177.3981 mm, 105.8125 mm): Footprint C20
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD'
+    Local override; warning
+    @(172.5981 mm, 105.8125 mm): Footprint R15
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.0850 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(188.6000 mm, 95.0350 mm): Segment of J3 on F.Silkscreen
+    @(192.4500 mm, 95.9300 mm): Pad 8 [GND] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.0850 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(191.1000 mm, 95.0350 mm): Segment of J3 on F.Silkscreen
+    @(192.4500 mm, 95.9300 mm): Pad 8 [GND] of J3 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.1300 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(179.3500 mm, 89.7500 mm): Segment of J2 on F.Silkscreen
+    @(178.7700 mm, 89.2100 mm): Pad 8 [POE_B2] of J2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.1100 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(179.3500 mm, 89.7500 mm): Segment of J2 on F.Silkscreen
+    @(180.9100 mm, 90.2500 mm): Pad 10 [Net-(J2-Pad10)] of J2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.1300 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(170.1000 mm, 89.7500 mm): Segment of J2 on F.Silkscreen
+    @(171.6300 mm, 89.2100 mm): Pad 1 [Net-(TR1-TX+)] of J2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.1400 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(146.3981 mm, 90.1472 mm): Segment of Y1 on F.Silkscreen
+    @(148.8481 mm, 92.6972 mm): Pad 1 [Net-(C8-Pad2)] of Y1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(159.2500 mm, 79.5000 mm): Rectangle on B.Silkscreen
+    @(181.5500 mm, 79.4500 mm): PTH pad SH [GNDPWR] of J2
+[silk_over_copper]: Silkscreen clipped by solder mask (rule 'JLC pad to silkscreen 0.15' clearance 0.1500 mm; actual 0.0000 mm)
+    Rule: JLC pad to silkscreen 0.15; warning
+    @(159.2500 mm, 79.5000 mm): Rectangle on B.Silkscreen
+    @(168.8500 mm, 79.4500 mm): PTH pad SH [GNDPWR] of J2
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clipped by board edge
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -30,6 +30,20 @@ There is now an Extension to add wired Ethernet to the board. The prototype alre
 
 ![KM271-WiFi_0.1.0_ETH-Ext](IMG/KM271-WiFi-0.1.0-ETH-Ext.jpg)
 
+## Order at JLCPCB
+
+Ready-to-upload files for v1.1.0 are in [`KM217-WiFi/production/`](KM217-WiFi/production/) and [`EXTENSIONS/ETH_W5500/production/`](EXTENSIONS/ETH_W5500/production/) (gerber zip, BOM, CPL with LCSC part numbers, iBOM).
+
+| | Main board | ETH add-on |
+|---|---|---|
+| Layers / thickness | 2 / 1.6 mm | 2 / 1.6 mm |
+| Surface finish | ENIG | HASL lead-free |
+| Gold fingers | Yes | No |
+| Beveling | No (recessed finger tongue, board < 50 mm) | No |
+| Assembly | Standard PCBA, both sides | Standard PCBA, both sides |
+
+Details (part swaps, JLC rule checklist, CPL rotation fixes, cost estimate): [DOC/JLCPCB-ordering.md](DOC/JLCPCB-ordering.md).
+
 ## Improvements / ToDo
 
  * Add a OneWire temperature Sensor on the board itself
