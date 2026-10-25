@@ -15,8 +15,8 @@
    "D3": "yellow LED → KENTO C2287 (original out of stock)",
    "D4": "red LED KENTO C2286 (basic)",
    "R9": "MPN field fixed (330 Ω, was R0603_0)",
-   "SW1": "footprint field matches board (the78mole B3SL)",
-   "SW2": "footprint field matches board (the78mole B3SL)",
+   "SW1": "now fitted (was DNP): Omron B3SL-1002P C306880, same as SW3/SW4",
+   "SW2": "now fitted (was DNP): Omron B3SL-1002P C306880, same as SW3/SW4",
    "FID1": "new JLC fiducial",
    "FID2": "new JLC fiducial",
    "FID3": "new JLC fiducial",
@@ -30,7 +30,10 @@
    "TP3": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
    "TP4": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
    "SW3": "LCSC code added; footprint field now matches the board footprint",
-   "SW4": "LCSC code added; footprint field now matches the board footprint"
+   "SW4": "LCSC code added; footprint field now matches the board footprint",
+   "J4": "now fitted (was DNP): 2x3 right-angle THT header C41417351",
+   "J5": "now fitted (was DNP): Phoenix 1757242 (exact MSTBA part) C90074",
+   "J6": "now fitted (was DNP): WAGO 2086-1208 C6074290, no LCSC stock: Global Sourcing"
   },
   "datasheet": {
    "J2": "HRO drawing: pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5/B5 CC; 5 A/20 V; KiCad footprint = recommended layout",
@@ -59,7 +62,8 @@
    "JP1": "excluded from BOM/CPL (solder jumper)",
    "JP2": "excluded from BOM/CPL (solder jumper)",
    "JP3": "excluded from BOM/CPL (solder jumper)",
-   "TR1": "value field corrected to 749013011A (was 7490100111A), LCSC added; part kept"
+   "TR1": "value field corrected to 749013011A (was 7490100111A), LCSC added; part kept",
+   "L2": "ferrite 220R extended → Sunlord 100R@100MHz C1015 (basic, 0.8 A)"
   },
   "datasheet": {
    "U2": "Diodes AZ1117I: ESR < 20 Ω, ≥ 10 µF ceramic OK; pinout = AP1117",
