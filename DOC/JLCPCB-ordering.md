@@ -49,7 +49,8 @@ price ($4.00 / 5 pcs, 2-layer HASL, Oct 2026), and shrinking needs a re-route of
 | ETH TR1 | Würth 749013011A | **kept** (C7193798) | — | Pulse H1601CE: pin names not published in JLC data, pinout unverified | Kept Würth |
 | ETH J2 | Würth 634008137521 | **kept** (C6095310, 57 in stock) | no stocked footprint-identical alternative found | — | Kept; enough for 5 boards |
 | J2 | Würth 65100516121 USB Mini-B | HRO TYPE-C-31-M-12 (C165948, 324k stock) | KiCad `USB_C_Receptacle_HRO_TYPE-C-31-M-12` = HRO recommended layout (16 SMD tails, 4 plated shell slots, 2 NPTH pegs); pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5 CC1, B5 CC2 checked against HRO drawing | 5 A / 20 V. J2 was power-only (D+/D-/ID unconnected), so D+/D-/SBU stay unconnected; CC1 and CC2 each get their own 5.1 kΩ to GND (R69/R70, basic C23186) so USB-C sources supply 5 V; shield via R60 (22 Ω) to GND as before | Clean. Mouth at the same top edge (0.3 mm overhang like Mini-B), centre unchanged in x, origin 2.75 mm closer to the edge; height 3.2 mm vs 4 mm. Shell legs are plated slots: JLC solders them with paste-in-hole (standard for this part); no GND vias or GND pour under the metal shell (rule area `USB_SHELL_NO_POUR`) |
-| passives/LEDs | generic | JLC basic parts | same 0603/0805 footprints | 100 n C14663 50 V X7R, 2u2 C23630 16 V X5R (rails ≤ 5 V) | Clean |
+| passives | generic | JLC basic parts | same 0603/0805 footprints | 100 n C14663 50 V X7R, 2u2 C23630 16 V X5R (rails ≤ 5 V) | Clean |
+| D1, D2, ETH D10 (green), D3 (yellow), D4, ETH D9 (red) | generic 0603 | KENTO KT-0603G C12624 (455k stock), KT-0603Y C2287 (124k), KT-0603R C2286 (basic) | same 0603 | Everlight C72043/C72038 from the original brief are out of stock (0) and extended; no basic green/yellow exists. Green Vf 3.1 V on the 3.3 V rail via 680 Ω gives ≈ 0.3 mA, as with the original part: dim but visible | Clean; +2 extended (main), +1 (ETH) |
 
 ## JLC compliance checklist
 
@@ -83,7 +84,7 @@ and computes the rotation/offset that maps the KiCad pads onto it.
 |---|---|---|---|
 | U1 ESP32-WROOM-32E | 0° | 270°, origin 0.745 mm along the pin rows | 270, `0,-0.745` |
 | J3, J7 (SMD headers), ETH J1 | 0° | 270° | 270 |
-| SW3, SW4 B3SL | 0° (DB +90°) | 270° (Omron: pins 4–3 and 2–1 bridged, rows must match) | 270 |
+| SW3, SW4 B3SL | 0° (DB +90°) | 270° (Omron: pins 4–3 and 2–1 bridged, rows must match; verified 0.00 mm over 4 pads) | 270 |
 | C7, C8 elcos | 180° (DB) | 0° (JLC "+" pad = KiCad pad 1) | 180 |
 | ETH TR1 | 90° | 0° | 270 |
 | J2 USB-C (HRO) | 180° | 180°, JLC origin 1.575 mm towards the mouth | `0,1.575` |
@@ -94,7 +95,8 @@ Not verifiable (no EasyEDA footprint data): ETH J2 RJ45, ETH J3, ETH Y1 (2-pin, 
 
 Fabrication Toolkit's database would have placed SW3/SW4 90° off their pads and C7/C8 reversed;
 the overrides above fix that. LEDs: C2286 (red) numbers pad 1 = anode, C72043/C72038 pad 1 =
-cathode; all four LEDs are oriented by function, not pad number.
+cathode; C2287 (yellow) pad 1 = anode, C12624 (green) pad 1 = cathode. The checker
+matches these by function (`--pad1-anode C2286,C2287`); all LEDs verified.
 
 Fabrication Toolkit dropped U6 (PCA9306) and others because the original board had empty
 `dnp` fields on them; removed.
@@ -104,13 +106,13 @@ Fabrication Toolkit dropped U6 (PCA9306) and others because the original board h
 | | Main | ETH |
 |---|---|---|
 | PCB (JLC quote) | $21.10 (2-layer ENIG + gold fingers) | $4.00 (2-layer HASL) |
-| Extended parts (×$3) | 11 → $33 | 10 → $30 |
-| Basic parts | 20 | 21 |
+| Extended parts (×$3) | 13 → $39 | 11 → $33 |
+| Basic parts | 18 | 20 |
 | Parts (LCSC unit prices × 5) | ≈ $48 | ≈ $72 |
 | Standard PCBA, 2 sides (setup + stencils, est.) | ≈ $55 | ≈ $55 |
-| **Subtotal** | **≈ $156** | **≈ $160** |
+| **Subtotal** | **≈ $162** | **≈ $163** |
 
-Total ≈ $316 + shipping (≈ €310 incl. shipping). Making both boards single-sided
+Total ≈ $325 + shipping (≈ €320 incl. shipping). Making both boards single-sided
 removes the second assembly side (≈ $25–30 per board); see branch `single-sided`.
 Exact PCBA cost needs the gerber upload on jlcpcb.com.
 

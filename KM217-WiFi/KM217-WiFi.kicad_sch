@@ -17614,7 +17614,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C12624"
 			(at 248.285 123.19 0)
 			(effects
 				(font
@@ -22562,7 +22562,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C12624"
 			(at 266.7 125.73 0)
 			(effects
 				(font
@@ -30563,7 +30563,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2287"
 			(at 248.285 115.57 0)
 			(effects
 				(font

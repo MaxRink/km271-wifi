@@ -3,10 +3,19 @@
 For each fitted footprint with an LCSC code: fetch the EasyEDA footprint with easyeda2kicad,
 find the rotation (0/90/180/270) + offset that maps our pads (by number) onto JLC's, and compare
 with the rotation Fabrication Toolkit wrote to positions.csv.
-usage: check_cpl_rotation.py board.kicad_pcb production/positions.csv cache_dir"""
+usage: check_cpl_rotation.py board.kicad_pcb production/positions.csv cache_dir [--pad1-anode C2286,...]
+--pad1-anode: LCSC parts whose JLC pad 1 is the anode (KiCad LED/diode pad 1 = cathode):
+matched by function, so the pad-number correction is flipped by 180 deg.
+--pad-map C306880:1=1+2,2=3+4  maps our pad names to JLC pad names (bridged pin pairs)."""
 import csv, math, os, re, subprocess, sys, pcbnew
 
 brd, pos_csv, cache = sys.argv[1:4]
+PADMAP = {}
+if '--pad-map' in sys.argv:
+    for spec in sys.argv[sys.argv.index('--pad-map') + 1].split(';'):
+        part, pairs = spec.split(':')
+        PADMAP[part] = {a: b.split('+') for a, b in (x.split('=') for x in pairs.split(','))}
+ANODE1 = set(sys.argv[sys.argv.index('--pad1-anode') + 1].split(',')) if '--pad1-anode' in sys.argv else set()
 os.makedirs(cache, exist_ok=True)
 cpl = {r['Designator']: r for r in csv.DictReader(open(pos_csv, encoding='utf-8-sig'))}
 
@@ -44,6 +53,8 @@ for fp in sorted(b.GetFootprints(), key=lambda f: f.GetReference()):
             ours.setdefault(p.GetNumber(), []).append((lp.x / 1e6, lp.y / 1e6))
     if key not in seen:
         theirs = jlc_pads(lcsc)
+        if theirs and lcsc in PADMAP:
+            theirs = {ours_name: sum((theirs.get(j, []) for j in js), []) for ours_name, js in PADMAP[lcsc].items()}
         best = None
         if theirs:
             common = [n for n in ours if n in theirs]
@@ -84,6 +95,8 @@ for fp in sorted(b.GetFootprints(), key=lambda f: f.GetReference()):
         print(f'{ref:5} {lcsc:9} {side:6} no JLC footprint / no pad match')
         continue
     deg, err, dx, dy, n = best
+    if lcsc in ANODE1:
+        deg = (deg + 180) % 360
     # required: JLC rotation = board rotation + correction where correction maps JLC's 0deg to ours
     need = (fp_rot + (360 - deg)) % 360 if side == 'top' else None
     ok = 'OK ' if side == 'bottom' or abs(((need - cpl_rot) + 180) % 360 - 180) < 1 else 'BAD'
