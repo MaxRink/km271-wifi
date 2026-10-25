@@ -31,7 +31,9 @@
    "LCSC": "C701342",
    "Value": "ESP32-WROOM-32E-N8",
    "MPN": "ESP32-WROOM-32E-N8",
-   "Footprint": "RF_Module:ESP32-WROOM-32"
+   "Footprint": "RF_Module:ESP32-WROOM-32",
+   "FT Rotation Offset": "270",
+   "FT Position Offset": "0,-0.745"
   },
   "U2": {
    "LCSC": "C108495"
@@ -64,16 +66,20 @@
   "J3": {
    "LCSC": "C32713283",
    "MPN": "HX PZ2.54-2x3P TP",
-   "Manufacturer": "hanxia"
+   "Manufacturer": "hanxia",
+   "FT Rotation Offset": "270"
   },
   "J7": {
-   "LCSC": "C3330868"
+   "LCSC": "C3330868",
+   "FT Rotation Offset": "270"
   },
   "SW3": {
-   "LCSC": "C306880"
+   "LCSC": "C306880",
+   "FT Rotation Offset": "270"
   },
   "SW4": {
-   "LCSC": "C306880"
+   "LCSC": "C306880",
+   "FT Rotation Offset": "270"
   },
   "TP1": {
    "LCSC": ""
@@ -86,6 +92,14 @@
   },
   "TP4": {
    "LCSC": ""
+  },
+  "C7": {
+   "FT Rotation Offset": "180",
+   "LCSC": "C340722"
+  },
+  "C8": {
+   "FT Rotation Offset": "180",
+   "LCSC": "C340722"
   }
  }
 }

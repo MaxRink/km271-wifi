@@ -29,7 +29,8 @@
   "J1": {
    "LCSC": "C843271",
    "MPN": "2.54-2*5P Female Header SMD",
-   "Manufacturer": "BOOMELE"
+   "Manufacturer": "BOOMELE",
+   "FT Rotation Offset": "270"
   },
   "J2": {
    "LCSC": "C6095310"
@@ -39,7 +40,8 @@
   },
   "TR1": {
    "LCSC": "C7193798",
-   "Value": "749013011A"
+   "Value": "749013011A",
+   "FT Rotation Offset": "270"
   },
   "U2": {
    "LCSC": "C108495",

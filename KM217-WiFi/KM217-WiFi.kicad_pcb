@@ -220,18 +220,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 16.764 261.112 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf370fe6-37fe-4b6e-9cda-6bf22351d76a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Digikey" "B3SL-1002P"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -1086,18 +1074,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e33e9d01-ae47-43db-9602-b31585693350")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 233.2 212.6 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52ed9369-0fa6-4245-9029-b8cccb694b99")
 			(effects
 				(font
 					(size 1 1)
@@ -2163,18 +2139,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19dff2c8-ff44-414d-b05a-79255d5931e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC" "C5119911"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -2476,7 +2440,7 @@
 		)
 		(path "/fbb2efcc-5ac2-4718-8a29-4f4a8c2b8bde")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3675,6 +3639,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "727698b6-f846-4126-9bb8-668b6bb6032d")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4891,7 +4866,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5292,6 +5267,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6e39ec8b-9a29-4359-b148-b7409e61c55b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6028,18 +6014,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 216.75 5.25 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37ec902c-b924-4285-af38-600b3cc6014b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/596ad3fd-3554-4880-b141-b89840e4e442")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd dnp)
@@ -6267,18 +6241,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed25daee-7ee4-42ea-aacc-0a0030aee706")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "be44688e-eba9-456f-805c-2e204ecb4b20")
 			(effects
 				(font
 					(size 1 1)
@@ -6771,18 +6733,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fae1364e-62a2-4a07-93dc-cd61351f8a61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "274dfe84-07bb-4ef5-babb-f65d32b77f38")
 			(effects
 				(font
 					(size 1 1)
@@ -7952,18 +7902,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 24.892 269.24 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8045020d-3bc2-4ae6-a74f-810cd9ff566b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Digikey" "B3SL-1002P"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -8593,6 +8531,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6741e1af-41f0-4795-85db-e4eee0f0639c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/9ccfd8a3-27b3-4bac-b1c0-dbc82ecb1089")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd)
@@ -8933,18 +8882,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "780e8004-7f08-4dbd-948c-6f6d13a24edf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 227.35 -34.25 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7e92fcd-e9eb-4f06-b3a3-c05b2bd19bdd")
 			(effects
 				(font
 					(size 1 1)
@@ -9802,6 +9739,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3dd2223b-ee14-4000-bcaa-8e86dcf86d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/2f151092-de12-435b-8035-bf64ac63c95b")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd)
@@ -10629,18 +10577,6 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 247.25 -21.05 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "65aec704-93c5-4158-a6e9-d4ad9d1765ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/0ef4ad27-7827-4c76-b47b-89d1b09d89a4")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd dnp)
@@ -10896,6 +10832,17 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "395ea10f-c7aa-4f8b-b7bb-f7d477899b13")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11357,18 +11304,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e655d43-1f0f-460d-993f-f66b460665fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "144050b3-0092-4975-a533-22a2e36da9a4")
 			(effects
 				(font
 					(size 1 1)
@@ -12186,6 +12121,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bc042523-27af-4d10-b10e-6ceaf2ccec45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/98c3ce32-fc8e-4528-8fd0-64583dc43644")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd)
@@ -12711,7 +12657,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13081,6 +13027,7 @@
 		)
 		(path "/dc398a40-92ea-4ab6-bb65-0566d97345f3")
 		(sheetfile "KM217-WiFi.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -8.89 -10.16)
@@ -13329,18 +13276,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6784b5c6-cf22-4746-8afd-6fdcf38e934b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 187.29 193.8 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5527b2d7-aea7-4eba-8b86-0b2458baae4a")
 			(effects
 				(font
 					(size 1 1)
@@ -13794,18 +13729,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7bef2837-0e8d-43e4-91fd-1197f7048066")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3505a09b-d241-4dcd-828e-b8a5626fd9b7")
 			(effects
 				(font
 					(size 1 1)
@@ -14290,7 +14213,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -14417,18 +14340,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6028e18e-8b3f-42e2-b4a9-e27ea560ea0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 214.2 7.8 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "520e96af-e73d-4ad7-898b-49cde9917433")
 			(effects
 				(font
 					(size 1 1)
@@ -14921,18 +14832,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2faa3d55-7336-4501-a5b9-bfe9ad9289c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1dfe54d-7370-49cd-baf0-b5d4a3bbaa0d")
 			(effects
 				(font
 					(size 1 1)
@@ -15453,6 +15352,28 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "FT Position Offset" "0,-0.745"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fe033ca4-ee28-44c9-a939-c69c68a99b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "895090f2-1526-444b-8108-d75f284a5549")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18111,7 +18032,7 @@
 		)
 		(path "/33b94ead-c86d-4795-aad9-799a3f358f74")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18243,19 +18164,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8eb933c9-2b2b-4e05-9760-b83fda7fd978")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 289.1 -41.1 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f4657fb1-72dc-4237-a8bb-88efe59d8c39")
 			(effects
 				(font
 					(size 1 1)
@@ -18646,7 +18554,7 @@
 		)
 		(path "/aabb3a48-4b90-4fd0-a251-8e45dd83760b")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21310,7 +21218,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21442,19 +21350,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "90513af8-a111-44d6-a1ec-6b59c0dee480")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 288.8 216.3 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6a91f1c8-4c5f-42eb-acc4-23bf35643060")
 			(effects
 				(font
 					(size 1 1)
@@ -22445,7 +22340,7 @@
 		)
 		(path "/4ae230e1-bf0b-47b1-8968-a7d48dbfb273")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -22560,7 +22455,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23730,19 +23625,6 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 311.4 197 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c2b69324-833e-4c5c-83ea-dc1eae6c4dd8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey" "DS2484R+T"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -24530,7 +24412,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_bom)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24910,7 +24792,7 @@
 		)
 		(path "/fe75b482-309d-4557-bef4-6b42792bfe6e")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -27118,19 +27000,6 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 214.2 7.8 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d937ff88-88d7-473e-9422-13cb3d4d2d66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/31e769c2-62b0-4539-9404-48e372d58b93")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd dnp)
@@ -27363,19 +27232,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f27b107f-b753-4f62-bc76-6c9128591737")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "75c43c21-3a3b-4609-ae2b-93e1bc47ae91")
 			(effects
 				(font
 					(size 1 1)
@@ -30134,19 +29990,6 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 188.09 184.2 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "0ab12c88-1e56-4c37-8033-5df3bcb29dc5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property "Digikey" "BZX84C5V1-7-F"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -31262,19 +31105,6 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "64459b1e-f986-4632-87dc-297ba9aadaca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/fc6ca6db-387e-4160-87b3-311dd06f24d1")
 		(sheetfile "KM217-WiFi.kicad_sch")
 		(attr smd dnp)
@@ -31758,19 +31588,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e87f9f71-9355-4e89-a016-f41483c07a01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 216.75 5.25 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "860ab733-071e-4ad7-9799-7043c33ce11a")
 			(effects
 				(font
 					(size 1 1)
@@ -33015,19 +32832,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a17cf2e1-dbe1-438c-9047-373c86a641b9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "6ffb917a-bce2-48b8-960d-f17a66984a9a")
 			(effects
 				(font
 					(size 1 1)
@@ -34547,19 +34351,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3d457b3b-dee1-4316-b60b-e4dbbcdab147")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "98c6a637-e34f-4923-8412-ba42c501dc7a")
 			(effects
 				(font
 					(size 1 1)

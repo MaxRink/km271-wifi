@@ -9831,6 +9831,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 160.02 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Transformer_SMD:Transformer_Ethernet_Wuerth_749013011A"
 			(at 160.02 53.975 0)
 			(effects
@@ -10278,7 +10287,7 @@
 		(at 36.195 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0bd758ad-fd43-4b72-b4d7-84f8afeb0465")
@@ -12246,6 +12255,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 43.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "the78mole:WE_PinSocket_TH_2x05_P2.54mm_Vertical_SMD"
 			(at 43.18 181.61 0)
 			(effects
@@ -13344,7 +13362,7 @@
 		(at 23.495 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "678eb818-4a87-48ac-889f-f93db219102e")
@@ -14060,7 +14078,7 @@
 		(at 29.845 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8060fe2c-afac-4cd0-afdd-f3725fcf97bb")

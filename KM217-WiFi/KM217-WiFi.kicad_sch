@@ -13230,6 +13230,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 142.875 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
 			(at 142.875 44.45 0)
 			(effects
@@ -16040,6 +16049,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 268.605 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P"
 			(at 263.525 50.8 0)
 			(effects
@@ -16413,7 +16431,7 @@
 		(at 48.895 112.395 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "33b94ead-c86d-4795-aad9-799a3f358f74")
@@ -16775,6 +16793,15 @@
 			)
 		)
 		(property "LCSC" "C340722"
+			(at 28.575 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 28.575 143.51 0)
 			(effects
 				(font
@@ -17421,6 +17448,24 @@
 			)
 		)
 		(property "LCSC" "C701342"
+			(at 207.645 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 207.645 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,-0.745"
 			(at 207.645 118.11 0)
 			(effects
 				(font
@@ -19216,7 +19261,7 @@
 		(at 48.895 109.855 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae230e1-bf0b-47b1-8968-a7d48dbfb273")
@@ -24071,6 +24116,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "270"
+			(at 84.455 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
 			(at 84.455 133.35 0)
 			(effects
@@ -24320,6 +24374,15 @@
 			)
 		)
 		(property "LCSC" "C306880"
+			(at 255.905 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
 			(at 255.905 50.8 90)
 			(effects
 				(font
@@ -24998,7 +25061,7 @@
 		(at 48.895 117.475 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "aabb3a48-4b90-4fd0-a251-8e45dd83760b")
@@ -27503,7 +27566,7 @@
 		(at 36.195 24.765 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc398a40-92ea-4ab6-bb65-0566d97345f3")
@@ -28557,6 +28620,15 @@
 			)
 		)
 		(property "LCSC" "C340722"
+			(at 106.045 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
 			(at 106.045 143.51 0)
 			(effects
 				(font
@@ -30197,7 +30269,7 @@
 		(at 18.415 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fbb2efcc-5ac2-4718-8a29-4f4a8c2b8bde")
@@ -30506,7 +30578,7 @@
 		(at 48.895 114.935 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe75b482-309d-4557-bef4-6b42792bfe6e")
