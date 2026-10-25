@@ -35,8 +35,9 @@ def free(side, x, y):
             if pad.IsOnLayer(cu) and pad.HitTest(p, int(1.2 * MM)):
                 return False
     silk = pcbnew.F_SilkS if side == 'F' else pcbnew.B_SilkS
+    mask = pcbnew.F_Mask if side == 'F' else pcbnew.B_Mask
     for d in b.GetDrawings():
-        if d.GetLayer() == silk and d.HitTest(p, int(1.5 * MM)):
+        if d.GetLayer() in (silk, mask, cu) and d.HitTest(p, int(1.5 * MM)):
             return False
     return True
 
