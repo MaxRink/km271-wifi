@@ -30603,6 +30603,14 @@
 			)
 		)
 	)
+	(no_connect
+		(at 80.01 44.45)
+		(uuid "368d74be-375e-4f4b-a1b5-3862471c66c8")
+	)
+	(no_connect
+		(at 77.47 44.45)
+		(uuid "12d38ad0-00a5-443a-b43a-00d1b05e1d3f")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
