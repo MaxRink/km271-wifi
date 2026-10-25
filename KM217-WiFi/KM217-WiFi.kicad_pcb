@@ -1288,9 +1288,8 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at -2.5 0 0)
+			(at -2.7 -1.3 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "1b2d23d8-3181-413e-8ea9-67052f1a0ba1")
 			(effects
 				(font
@@ -2379,9 +2378,8 @@
 		(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
 		(tags "mounting hole 3.2mm no annular m3 din965")
 		(property "Reference" "H1"
-			(at 0 -3.8 0)
+			(at 4.1 1.4 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "d51b0982-13b9-473d-8f24-70259cf8f140")
 			(effects
 				(font
@@ -46583,7 +46581,7 @@
 			(justify right)
 		)
 	)
-	(gr_text "IO21\nIO22\nIO17\nIO25"
+	(gr_text "IO25\nIO17\nIO22\nIO21"
 		(at 157.55 112.95 90)
 		(layer "F.SilkS")
 		(uuid "5997f6ed-5923-4f92-ba18-ea12a45c99a8")
@@ -46616,6 +46614,18 @@
 				(thickness 0.15)
 			)
 			(justify left mirror)
+		)
+	)
+	(gr_text "FAB NOTES ${TITLE} rev ${REVISION}\nStackup: 2 layers, FR4 TG135, 1.6 mm +-10 pct, outer copper 1 oz (35 um)\nL1 F.Cu signal/GND pour | core 1.5 mm | L2 B.Cu signal/GND pour\nFinish: ENIG (gold fingers). Gold fingers: YES, bevel: NO (see J1 note)\nMask green, silk white, vias tented. Min track/space 0.20/0.20 mm, min via 0.3/0.6 mm\nAssembly: Standard PCBA, both sides. BOM/CPL: production/bom.csv, production/positions.csv"
+		(at 69.95 140.05 0)
+		(layer "Cmts.User")
+		(uuid "af3296aa-10e8-49f4-9ec5-96e17a40574f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "FAB NOTE J1 (KM271 card edge): 12 gold fingers F+B, 1.6 mm FR4 (+-10%).\nOrder option: Gold Fingers = YES (ENIG / hard gold on fingers), mask open over fingers.\nBevel: NOT POSSIBLE - finger edge (y=124.25) is recessed 5.75 mm between the board legs\n(y=130) and JLC chamfers only boards >= 50x50 mm. Original module is used unbevelled.\nFingers end 0.2 mm before the board edge; no vias/pads within 1 mm (rule area GOLD_FINGERS)."

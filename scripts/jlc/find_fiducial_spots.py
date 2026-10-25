@@ -71,7 +71,6 @@ if '--place' in sys.argv:
             if fp.IsFlipped() != (side == 'B'):
                 fp.Flip(fp.GetPosition(), pcbnew.FLIP_DIRECTION_LEFT_RIGHT)
             fp.SetPosition(pcbnew.VECTOR2I(int(x), int(y)))
-    for fp in old.values():
-        b.Remove(fp)
+    # leftover fiducials (side without a spot) are kept, never deleted
     pcbnew.ZONE_FILLER(b).Fill(b.Zones())
     b.Save(sys.argv[1])

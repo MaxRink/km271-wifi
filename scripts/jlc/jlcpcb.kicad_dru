@@ -53,3 +53,7 @@
 (rule "JLC gold fingers: no vias/pour/other pads within 1 mm"
 	(condition "A.Type != 'Zone' && A.intersectsArea('GOLD_FINGERS') && A.Type != 'Track' && !(A.Type == 'Pad' && A.Parent.Reference == 'J1')")
 	(constraint disallow via pad))
+
+(rule "Best practice: copper pours pulled back 0.5 mm from routed edges"
+	(condition "A.Type == 'Zone' && !A.intersectsArea('GOLD_FINGERS')")
+	(constraint edge_clearance (min 0.5mm)))
