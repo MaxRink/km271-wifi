@@ -20,7 +20,8 @@
   "10K": "C25804",
   "47K": "C25819",
   "100K": "C25803",
-  "1M": "C22935"
+  "1M": "C22935",
+  "5K1": "C23186"
  },
  "by_ref": {
   "R9": {
@@ -61,7 +62,10 @@
    "MPN": "PCB gold fingers"
   },
   "J2": {
-   "LCSC": "C5120592"
+   "LCSC": "C165948",
+   "MPN": "TYPE-C-31-M-12",
+   "Manufacturer": "Korean Hroparts Elec",
+   "FT Position Offset": "0,1.575"
   },
   "J3": {
    "LCSC": "C32713283",
@@ -75,11 +79,13 @@
   },
   "SW3": {
    "LCSC": "C306880",
-   "FT Rotation Offset": "270"
+   "FT Rotation Offset": "270",
+   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
   },
   "SW4": {
    "LCSC": "C306880",
-   "FT Rotation Offset": "270"
+   "FT Rotation Offset": "270",
+   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
   },
   "TP1": {
    "LCSC": ""
@@ -100,6 +106,12 @@
   "C8": {
    "FT Rotation Offset": "180",
    "LCSC": "C340722"
+  },
+  "SW1": {
+   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
+  },
+  "SW2": {
+   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
   }
  }
 }

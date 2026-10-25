@@ -1497,8 +1497,20 @@
 		)
 		(embedded_fonts no)
 		(model "${USER_LIB_BASE}/userlibs/3dmodels/WE-690367290876.stp"
+			(hide yes)
 			(offset
 				(xyz 0 0 2.77)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/../../3dmodels/Wuerth_690367290876_WR-MM_approx.wrl"
+			(offset
+				(xyz 0 -0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2467,6 +2479,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3207,7 +3220,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C33"
-			(at 0 -1.85 0)
+			(at -0.7875 1.9 0)
 			(layer "F.SilkS")
 			(uuid "ba9ec3d3-7ea8-4de5-bd5e-a202a639d54d")
 			(effects
@@ -4578,6 +4591,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4894,6 +4908,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_Ethernet_Wuerth_749013011A.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4902,6 +4917,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/../../3dmodels/Wuerth_749013011A.step"
+			(offset
+				(xyz 0 -0.005 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 270)
 			)
 		)
 	)
@@ -6061,6 +6087,7 @@
 		)
 		(embedded_fonts no)
 		(model "${PATH_3D_THE78MOLE}/WE-MJ-634008137521.stp"
+			(hide yes)
 			(offset
 				(xyz 0 2.44 6.91)
 			)
@@ -6069,6 +6096,17 @@
 			)
 			(rotate
 				(xyz 0 180 0)
+			)
+		)
+		(model "${KIPRJMOD}/../../3dmodels/Wuerth_634008137521_RJ45_approx.wrl"
+			(offset
+				(xyz -0.0000000000000004 3.4375 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11945,13 +11983,13 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
-			(at 2.8625 0 0)
+			(at 2.914375 0 0)
 			(layer "F.SilkS")
 			(uuid "cf5fdae1-b967-4c6a-a3a6-5735e0834526")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17349,7 +17387,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18586,7 +18624,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18701,7 +18739,7 @@
 				(justify mirror)
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd board_only exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
