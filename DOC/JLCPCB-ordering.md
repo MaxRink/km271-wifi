@@ -48,7 +48,7 @@ price ($4.00 / 5 pcs, 2-layer HASL, Oct 2026), and shrinking needs a re-route of
 | ETH J1 | WE 2×5 SMD socket (no MPN) | BOOMELE 2×5 SMD female (C843271) | 2.54 mm, 8.5 mm, mates with main J7 (54202-G0805LF) | — | Clean |
 | ETH TR1 | Würth 749013011A | **kept** (C7193798) | — | Pulse H1601CE: pin names not published in JLC data, pinout unverified | Kept Würth |
 | ETH J2 | Würth 634008137521 | **kept** (C6095310, 57 in stock) | no stocked footprint-identical alternative found | — | Kept; enough for 5 boards |
-| J2 | Würth 65100516121 USB Mini-B | HRO TYPE-C-31-M-12 (C165948, 324k stock) | KiCad `USB_C_Receptacle_HRO_TYPE-C-31-M-12` = HRO recommended layout (16 SMD tails, 4 plated shell slots, 2 NPTH pegs); pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5 CC1, B5 CC2 checked against HRO drawing | 5 A / 20 V. J2 was power-only (D+/D-/ID unconnected), so D+/D-/SBU stay unconnected; CC1 and CC2 each get their own 5.1 kΩ to GND (R69/R70, basic C23186) so USB-C sources supply 5 V; shield via R60 (22 Ω) to GND as before | Clean. Mouth at the same top edge (0.3 mm overhang like Mini-B), centre unchanged in x, origin 2.75 mm closer to the edge; height 3.2 mm vs 4 mm. Shell legs are plated slots: JLC solders them with paste-in-hole (standard for this part); no GND vias left under the metal shell |
+| J2 | Würth 65100516121 USB Mini-B | HRO TYPE-C-31-M-12 (C165948, 324k stock) | KiCad `USB_C_Receptacle_HRO_TYPE-C-31-M-12` = HRO recommended layout (16 SMD tails, 4 plated shell slots, 2 NPTH pegs); pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5 CC1, B5 CC2 checked against HRO drawing | 5 A / 20 V. J2 was power-only (D+/D-/ID unconnected), so D+/D-/SBU stay unconnected; CC1 and CC2 each get their own 5.1 kΩ to GND (R69/R70, basic C23186) so USB-C sources supply 5 V; shield via R60 (22 Ω) to GND as before | Clean. Mouth at the same top edge (0.3 mm overhang like Mini-B), centre unchanged in x, origin 2.75 mm closer to the edge; height 3.2 mm vs 4 mm. Shell legs are plated slots: JLC solders them with paste-in-hole (standard for this part); no GND vias or GND pour under the metal shell (rule area `USB_SHELL_NO_POUR`) |
 | passives/LEDs | generic | JLC basic parts | same 0603/0805 footprints | 100 n C14663 50 V X7R, 2u2 C23630 16 V X5R (rails ≤ 5 V) | Clean |
 
 ## JLC compliance checklist
@@ -69,7 +69,7 @@ Rules from jlcpcb.com/capabilities/pcb-capabilities (fetched 2026-10-25), enforc
 | Pad to silkscreen | ≥ 0.15 mm | DRC ✔ | DRC ✔ |
 | Min SMD pad | 0.25 × 0.25 mm | 0.30 ✔ | 0.30 ✔ |
 | Gold fingers | ENIG, mask open, no copper/vias near, bevel only ≥ 50 × 50 | ✔, no bevel | n/a |
-| Fiducials | 1 mm Cu, 2 mm mask, 3 per side, ≥ 3.35 mm from edge | 3 top + 3 bottom ✔ | 3 bottom; **0 top** (no free spot without moving parts) |
+| Fiducials | 1 mm Cu, 2 mm mask, 3 per side, ≥ 3.35 mm from edge | 3 top + 3 bottom ✔ | 3 bottom; **0 top** (no free spot without moving parts): order with JLC edge rails + fiducials, fixed in PR 2 |
 | Edge rails | JLC: required for standard PCBA | none in design: let JLC add | same |
 | HandSolder pads | — | longer pads, fine for reflow | ✔ |
 | BOM/CPL format | Designator, Footprint, Quantity, Value, LCSC Part # / Designator, Mid X, Mid Y, Rotation, Layer | ✔ | ✔ |
@@ -120,7 +120,7 @@ Exact PCBA cost needs the gerber upload on jlcpcb.com.
 
 | Check | Main | ETH |
 |---|---|---|
-| Netlist, pin by pin | only J2 (Mini-B → USB-C), R69/R70 added, R60.1 renamed `/USB_SHIELD` (same connection); J8 mating-plug symbol set "not on board" | no change |
+| Netlist, pin by pin | only J2 (Mini-B → USB-C), R69/R70 added, R60.1 renamed `/USB_SHIELD` (same connection). Extra edit: J8 (DNP mating screw terminal, no footprint) set "not on board", which drops its two unconnected pins from the netlist | no change |
 | Placement | only J2 (USB-C), R69/R70, fiducials; J1 fingers, J7, H1 unchanged | only fiducials; J1 (mates J7) unchanged |
 | Tracks / vias | 872 → 893 / 240 → 241 (J2 area) | unchanged |
 | DRC with schematic parity | 0 errors, 0 unconnected | 0 errors, 0 unconnected |

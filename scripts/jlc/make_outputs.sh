@@ -16,6 +16,7 @@ kicad-cli pcb export pdf --layers F.Cu,B.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.C
   --mode-multipage -o "$out/${n}_pcb.pdf" "$b.kicad_pcb" >/dev/null 2>&1
 "$here/export_step.sh" "$b.kicad_pcb" "$out/${n}.step" >/dev/null
 "$here/render.sh" "$b.kicad_pcb" "$out/${n}"
-kicad-cli pcb drc --schematic-parity --severity-error -o "$out/drc.rpt" "$b.kicad_pcb" >/dev/null 2>&1
-kicad-cli sch erc --severity-error -o "$out/erc.rpt" "$b.kicad_sch" >/dev/null 2>&1
-echo "$n: DRC errors $(grep -c '^\[' "$out/drc.rpt"), ERC errors $(grep -c '^\[' "$out/erc.rpt")"
+kicad-cli pcb drc --schematic-parity --severity-all -o "$out/drc.rpt" "$b.kicad_pcb" >/dev/null 2>&1
+kicad-cli sch erc --severity-all -o "$out/erc.rpt" "$b.kicad_sch" >/dev/null 2>&1
+err() { grep -A1 '^\[' "$1" | grep -c '; error' || true; }
+echo "$n: DRC errors $(err "$out/drc.rpt") (warnings listed in drc.rpt), ERC errors $(err "$out/erc.rpt")"
