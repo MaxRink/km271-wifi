@@ -1,0 +1,80 @@
+[
+ {
+  "text": "5V",
+  "x": 121.9,
+  "y": 106.11,
+  "just": "right"
+ },
+ {
+  "text": "CS",
+  "x": 121.9,
+  "y": 108.65,
+  "just": "right"
+ },
+ {
+  "text": "MISO",
+  "x": 121.9,
+  "y": 111.19,
+  "just": "right"
+ },
+ {
+  "text": "MOSI",
+  "x": 121.9,
+  "y": 113.73,
+  "just": "right"
+ },
+ {
+  "text": "SCK",
+  "x": 121.9,
+  "y": 116.27,
+  "just": "right"
+ },
+ {
+  "text": "3V3",
+  "x": 131.0,
+  "y": 106.11,
+  "just": "left"
+ },
+ {
+  "text": "SCL",
+  "x": 131.0,
+  "y": 108.65,
+  "just": "left"
+ },
+ {
+  "text": "SDA",
+  "x": 131.0,
+  "y": 111.19,
+  "just": "left"
+ },
+ {
+  "text": "INT",
+  "x": 131.0,
+  "y": 113.73,
+  "just": "left"
+ },
+ {
+  "text": "GND",
+  "x": 131.0,
+  "y": 116.27,
+  "just": "left"
+ },
+ {
+  "text": "EXT",
+  "x": 129.2,
+  "y": 118.45,
+  "just": "left"
+ },
+ {
+  "text": "github.com/the78mole/km271-wifi",
+  "x": 135.0,
+  "y": 128.7,
+  "layer": "B.SilkS"
+ },
+ {
+  "text": "JLCJLCJLCJLC",
+  "x": 126.42,
+  "y": 111.19,
+  "rot": 90
+ }
+]
