@@ -15502,6 +15502,7 @@
 		(property "Reference" "JP3"
 			(at 4.651875 0.027763 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "2b9ea6ca-29e4-46de-8545-a4fe601ddb28")
 			(effects
 				(font
@@ -16101,6 +16102,7 @@
 		(property "Reference" "JP2"
 			(at 4.626875 0.077763 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "72574a35-d8f0-4827-bc59-dd227e0df4d1")
 			(effects
 				(font
@@ -18164,6 +18166,7 @@
 		(property "Reference" "JP1"
 			(at 4.601875 0.052763 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "388c1afc-8f87-435e-a342-44b7a258d32e")
 			(effects
 				(font
@@ -20425,6 +20428,17 @@
 		(layer "User.7")
 		(uuid "5fde0099-fcee-4766-b5fe-c055285957a7")
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 175.75 101.17 0)
+		(layer "F.SilkS")
+		(uuid "7dd73895-d41b-4932-93e2-d29652c3dbff")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "5VSEL"
 		(at 190.948125 78.772237 0)
 		(layer "F.SilkS")
@@ -20435,6 +20449,186 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 138.45 97.97 0)
+		(layer "B.SilkS")
+		(uuid "8b5ae2ed-88f0-4117-aafa-4b90a1d82c8a")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "CS"
+		(at 138.45 100.51 0)
+		(layer "B.SilkS")
+		(uuid "2d5d1e61-221a-4140-b99c-ff98567bf981")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MI"
+		(at 138.45 103.05 0)
+		(layer "B.SilkS")
+		(uuid "c2a65d17-4218-49fb-a0a8-ea09092dc2ec")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "MO"
+		(at 138.45 105.59 0)
+		(layer "B.SilkS")
+		(uuid "362d58df-ed7a-4cb5-b07e-b8a1944de619")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCK"
+		(at 138.45 108.13 0)
+		(layer "B.SilkS")
+		(uuid "6932f1b1-baee-4cc1-ab74-d68bc6df6302")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "EXT (J1)"
+		(at 141.65 95.6 0)
+		(layer "B.SilkS")
+		(uuid "25fcab57-e996-4e9d-addd-53cda7501bd4")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "3V3"
+		(at 144.85 97.97 0)
+		(layer "B.SilkS")
+		(uuid "93dc603d-e494-49b5-8d02-3b1852d7459b")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 144.85 100.51 0)
+		(layer "B.SilkS")
+		(uuid "0303fd74-b13d-4850-a2cb-b1af874870fb")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 144.85 103.05 0)
+		(layer "B.SilkS")
+		(uuid "5a5a0756-8193-454d-bed5-ddbd5237cfb9")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "INT"
+		(at 144.85 105.59 0)
+		(layer "B.SilkS")
+		(uuid "6e544e23-df33-4e52-b4db-980d3d4c21a1")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 144.85 108.13 0)
+		(layer "B.SilkS")
+		(uuid "d98ad386-1981-48b8-acc5-e0e30e3edde8")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "LED D10=DUP D9=SPD"
+		(at 173 83.2 0)
+		(layer "B.SilkS")
+		(uuid "1dfc8664-f9f2-45d0-9ee9-b86dc87b4845")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "J3: 1=A1 2=A2 3=B1 4=B2"
+		(at 173 85.1 0)
+		(layer "B.SilkS")
+		(uuid "95ea34eb-c0bf-4a96-976a-76edbbf3a813")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "5=3V3 6=5V 7,8=GND"
+		(at 173 87 0)
+		(layer "B.SilkS")
+		(uuid "85151876-db7e-4b15-86cb-4f68a54cf780")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "github.com/the78mole/km271-wifi"
+		(at 173 88.9 0)
+		(layer "B.SilkS")
+		(uuid "c45b9d76-6822-4a2f-81a0-19e9ec878018")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "3V3SEL"
