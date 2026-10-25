@@ -17429,7 +17429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32E"
+		(property "Footprint" "RF_Module:ESP32-WROOM-32"
 			(at 207.645 156.21 0)
 			(effects
 				(font
@@ -20234,7 +20234,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C12891"
+		(property "LCSC" "C76690"
 			(at 213.995 68.58 90)
 			(effects
 				(font
@@ -20243,7 +20243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder"
 			(at 213.995 68.58 0)
 			(effects
 				(font
@@ -20270,7 +20270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31A226KAHNNNE"
+		(property "MPN" "C4532X7R1E226MT000N"
 			(at 213.995 68.58 0)
 			(effects
 				(font
@@ -20279,7 +20279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "TDK"
 			(at 213.995 68.58 0)
 			(effects
 				(font
