@@ -108,11 +108,11 @@ Fabrication Toolkit dropped U6 (PCA9306) and others because the original board h
 | PCB (JLC quote) | $21.10 (2-layer ENIG + gold fingers) | $4.00 (2-layer HASL) |
 | Extended parts (×$3) | 13 → $39 | 11 → $33 |
 | Basic parts | 18 | 20 |
-| Parts (LCSC unit prices × 5) | ≈ $48 | ≈ $72 |
+| Parts (LCSC unit prices × 5) | ≈ $48 | ≈ $73 |
 | Standard PCBA, 2 sides (setup + stencils, est.) | ≈ $55 | ≈ $55 |
-| **Subtotal** | **≈ $162** | **≈ $163** |
+| **Subtotal** | **≈ $163** | **≈ $165** |
 
-Total ≈ $325 + shipping (≈ €320 incl. shipping). Making both boards single-sided
+Total ≈ $328 + shipping (≈ €320 incl. shipping). Making both boards single-sided
 removes the second assembly side (≈ $25–30 per board); see branch `single-sided`.
 Exact PCBA cost needs the gerber upload on jlcpcb.com.
 

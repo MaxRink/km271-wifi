@@ -1,0 +1,71 @@
+{
+ "KM217-WiFi": {
+  "reasons": {
+   "J2": "USB Mini-B (Würth 65100516121) → USB-C HRO TYPE-C-31-M-12, power only",
+   "R69": "new: CC1 5.1 kΩ pull-down (USB-C sink)",
+   "R70": "new: CC2 5.1 kΩ pull-down (USB-C sink)",
+   "J8": "DNP mating screw terminal (no footprint) set 'not on board'",
+   "U1": "ESP32-WROOM-32D (NRND) → 32E-N8, same land pattern",
+   "U4": "SN74LV1T34DBVRG4 → DBVR (packing/RoHS suffix)",
+   "U5": "SN74LV1T34DBVRG4 → DBVR (packing/RoHS suffix)",
+   "C13": "TDK 1812 22 µF 25 V X7R (stocked)",
+   "J3": "Amphenol 54202-G08-03 (no stock) → hanxia 2x3 SMD header",
+   "D1": "green LED → KENTO C12624 (original out of stock)",
+   "D2": "green LED → KENTO C12624 (original out of stock)",
+   "D3": "yellow LED → KENTO C2287 (original out of stock)",
+   "D4": "red LED KENTO C2286 (basic)",
+   "R9": "MPN field fixed (330 Ω, was R0603_0)",
+   "SW1": "footprint field matches board (the78mole B3SL)",
+   "SW2": "footprint field matches board (the78mole B3SL)",
+   "FID1": "new JLC fiducial",
+   "FID2": "new JLC fiducial",
+   "FID3": "new JLC fiducial",
+   "FID4": "new JLC fiducial",
+   "FID5": "new JLC fiducial",
+   "FID6": "new JLC fiducial",
+   "H1": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "J1": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "TP1": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "TP2": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "TP3": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "TP4": "excluded from BOM/CPL (nothing to assemble: hole, PCB fingers, test pads)",
+   "SW3": "LCSC code added; footprint field now matches the board footprint",
+   "SW4": "LCSC code added; footprint field now matches the board footprint"
+  },
+  "datasheet": {
+   "J2": "HRO drawing: pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5/B5 CC; 5 A/20 V; KiCad footprint = recommended layout",
+   "U1": "Espressif 32E datasheet: pins 17–22 NC (unused on board), D0WD-V3, IO16/17 free (N8, no PSRAM), strapping unchanged",
+   "U4": "TI: G4 suffix only",
+   "U5": "TI: G4 suffix only",
+   "C13": "TDK C4532X7R1E226M: 25 V ≥ 10 V, X7R ≥ X5R",
+   "D1": "Vf 3.1 V @ 5 mA, same 0603, pad 1 = K",
+   "D2": "Vf 3.1 V @ 5 mA, same 0603, pad 1 = K",
+   "D3": "Vf 2.4 V, same 0603 (JLC pad 1 = A, CPL by function)",
+   "D4": "JLC pad 1 = A, CPL by function",
+   "R69": "5.1 kΩ ±1 % per USB Type-C Rd",
+   "R70": "5.1 kΩ ±1 % per USB Type-C Rd"
+  }
+ },
+ "ETH_W5500": {
+  "reasons": {
+   "U2": "AP1117-33 → AZ1117IH-3.3 (ceramic-stable; AMS1117 rejected)",
+   "Y1": "25 MHz HC49 (no MPN) → Abracon ABLS2 CL 18 pF",
+   "J1": "2x5 SMD socket BOOMELE C843271 (mates main J7)",
+   "D10": "green LED → KENTO C12624 (original out of stock)",
+   "D9": "red LED KENTO C2286 (basic)",
+   "FID1": "new JLC fiducial",
+   "FID2": "new JLC fiducial",
+   "FID3": "new JLC fiducial",
+   "JP1": "excluded from BOM/CPL (solder jumper)",
+   "JP2": "excluded from BOM/CPL (solder jumper)",
+   "JP3": "excluded from BOM/CPL (solder jumper)",
+   "TR1": "value field corrected to 749013011A (was 7490100111A), LCSC added; part kept"
+  },
+  "datasheet": {
+   "U2": "Diodes AZ1117I: ESR < 20 Ω, ≥ 10 µF ceramic OK; pinout = AP1117",
+   "Y1": "W5500 DS: 25 MHz, ±30 ppm, CL 18 pF = ABLS2 (ESR 40 Ω)",
+   "J1": "2.54 mm, 8.5 mm female, mates 54202-G0805LF",
+   "D10": "same 0603, pad 1 = K"
+  }
+ }
+}
