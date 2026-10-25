@@ -1,0 +1,19 @@
+{"by_value": {"100n": "C14663", "2u2": "C23630", "33n": "C21117", "4p7": "C1669", "100u/16V": "C340722",
+  "LED green": "C72043", "LED yellow": "C72038", "LED red": "C2286",
+  "0": "C21189", "10": "C22859", "22": "C23345", "220": "C22962", "330": "C23138", "680": "C23228",
+  "1K": "C21190", "3K3": "C22978", "4K7": "C23162", "10K": "C25804", "47K": "C25819", "100K": "C25803", "1M": "C22935"},
+ "by_ref": {
+  "R9": {"LCSC": "C23138", "MPN": "R0603_330"},
+  "U1": {"LCSC": "C701342", "Value": "ESP32-WROOM-32E-N8", "MPN": "ESP32-WROOM-32E-N8", "Footprint": "RF_Module:ESP32-WROOM-32E"},
+  "U2": {"LCSC": "C108495"},
+  "U4": {"LCSC": "C100024", "MPN": "SN74LV1T34DBVR"},
+  "U5": {"LCSC": "C100024", "MPN": "SN74LV1T34DBVR"},
+  "U6": {"LCSC": "C5119911"},
+  "C13": {"LCSC": "C12891", "Value": "22u/25V", "MPN": "CL31A226KAHNNNE", "Manufacturer": "Samsung", "Footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"},
+  "J1": {"LCSC": "", "MPN": "PCB gold fingers"},
+  "J2": {"LCSC": "C5120592"},
+  "J3": {"LCSC": "C32713283", "MPN": "HX PZ2.54-2x3P TP", "Manufacturer": "hanxia"},
+  "J7": {"LCSC": "C3330868"},
+  "SW3": {"LCSC": "C306880"}, "SW4": {"LCSC": "C306880"},
+  "TP1": {"LCSC": ""}, "TP2": {"LCSC": ""}, "TP3": {"LCSC": ""}, "TP4": {"LCSC": ""}
+ }}
