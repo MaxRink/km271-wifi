@@ -1,57 +1,357 @@
-{"_source": "jlcpcb MCP component_search (JLCPCB/LCSC library), 2026-10-25; price = USD unit price at low qty",
- "C14663": {"type": "basic", "stock": 44056271, "price": 0.0084, "desc": "100nF 50V X7R 0603 YAGEO"},
- "C23630": {"type": "basic", "stock": 3150654, "price": 0.0125, "desc": "2.2uF 16V X5R 0603 Samsung"},
- "C21117": {"type": "basic", "stock": 778183, "price": 0.0107, "desc": "33nF 50V X7R 0603 Samsung"},
- "C1669": {"type": "extended", "stock": 614782, "price": 0.0054, "desc": "4.7pF 50V C0G 0603 FH"},
- "C76690": {"type": "extended", "stock": 9257, "price": 0.6285, "desc": "22uF 25V X7R 1812 TDK"},
- "C340722": {"type": "extended", "stock": 2401, "price": 0.389, "desc": "100uF 16V elco 6.3x5.4 Nichicon UWT1C101MCL1GB"},
- "C12624": {"type": "extended", "stock": 454957, "price": 0.0117, "desc": "LED green 0603 KENTO KT-0603G"},
- "C2287": {"type": "extended", "stock": 123922, "price": 0.0104, "desc": "LED yellow 0603 KENTO KT-0603Y"},
- "C2286": {"type": "basic", "stock": 7825402, "price": 0.0077, "desc": "LED red 0603 KENTO KT-0603R"},
- "C72043": {"type": "extended", "stock": 0, "price": 0.0239, "desc": "LED green 0603 Everlight (out of stock)"},
- "C72038": {"type": "extended", "stock": 0, "price": 0.0239, "desc": "LED yellow 0603 Everlight (out of stock)"},
- "C165948": {"type": "extended", "stock": 324520, "price": 0.1869, "desc": "USB-C 16P HRO TYPE-C-31-M-12"},
- "C5120592": {"type": "extended", "stock": 1123, "price": 2.0489, "desc": "USB Mini-B Wuerth 65100516121"},
- "C32713283": {"type": "extended", "stock": 43641, "price": 0.0519, "desc": "Pin header 2x3 2.54 SMD hanxia"},
- "C3330868": {"type": "extended", "stock": 2933, "price": 0.6137, "desc": "Pin header 2x5 2.54 SMD Amphenol 54202-G0805LF"},
- "C306880": {"type": "extended", "stock": 2877, "price": 0.2552, "desc": "Tactile switch Omron B3SL-1002P"},
- "C701342": {"type": "extended", "stock": 17454, "price": 4.5691, "desc": "ESP32-WROOM-32E-N8"},
- "C108495": {"type": "extended", "stock": 12453, "price": 0.3635, "desc": "AZ1117IH-3.3TRG1 SOT-223"},
- "C100024": {"type": "extended", "stock": 33573, "price": 0.3571, "desc": "SN74LV1T34DBVR"},
- "C5119911": {"type": "extended", "stock": 3064, "price": 0.743, "desc": "PCA9306DC1Z"},
- "C23186": {"type": "basic", "stock": 22159080, "price": 0.0015, "desc": "5.1k 0603"},
- "C21189": {"type": "basic", "stock": 22304574, "price": 0.0022, "desc": "0R 0603"},
- "C22859": {"type": "basic", "stock": 6894616, "price": 0.0032, "desc": "10R 0603"},
- "C23345": {"type": "basic", "stock": 7128217, "price": 0.0017, "desc": "22R 0603"},
- "C22962": {"type": "basic", "stock": 3286070, "price": 0.0033, "desc": "220R 0603"},
- "C23138": {"type": "basic", "stock": 3785371, "price": 0.002, "desc": "330R 0603"},
- "C23228": {"type": "basic", "stock": 2018177, "price": 0.0021, "desc": "680R 0603"},
- "C21190": {"type": "basic", "stock": 35069048, "price": 0.0017, "desc": "1k 0603"},
- "C22978": {"type": "basic", "stock": 5577558, "price": 0.0022, "desc": "3.3k 0603"},
- "C23162": {"type": "basic", "stock": 17120858, "price": 0.0028, "desc": "4.7k 0603"},
- "C25804": {"type": "basic", "stock": 40652550, "price": 0.0022, "desc": "10k 0603"},
- "C25819": {"type": "basic", "stock": 3528647, "price": 0.0035, "desc": "47k 0603"},
- "C25803": {"type": "basic", "stock": 18212040, "price": 0.0031, "desc": "100k 0603"},
- "C22935": {"type": "basic", "stock": 5730584, "price": 0.0018, "desc": "1M 0603"},
- "C32843": {"type": "extended", "stock": 8872, "price": 2.8295, "desc": "WIZnet W5500 LQFP-48"},
- "C7193798": {"type": "extended", "stock": 621, "price": 3.9653, "desc": "Wuerth 749013011A LAN transformer"},
- "C6095310": {"type": "extended", "stock": 57, "price": 4.993, "desc": "Wuerth 634008137521 RJ45"},
- "C20476862": {"type": "extended", "stock": 383, "price": 1.1669, "desc": "Wuerth 690367290876 WR-MM 2x4"},
- "C596824": {"type": "extended", "stock": 1423, "price": 0.3524, "desc": "Abracon ABLS2-25.000MHZ-D4YF-T 18pF"},
- "C843271": {"type": "extended", "stock": 3806, "price": 0.1948, "desc": "2x5 female header SMD BOOMELE"},
- "C85840": {"type": "extended", "stock": 605375, "price": 0.0346, "desc": "Ferrite bead 220R@100MHz 0805 Murata"},
- "C1779": {"type": "basic", "stock": 2028470, "price": 0.0343, "desc": "4.7uF 25V X5R 0805"},
- "C45783": {"type": "basic", "stock": 4275456, "price": 0.1912, "desc": "22uF 25V X5R 0805"},
- "C1647": {"type": "basic", "stock": 275639, "price": 0.0158, "desc": "18pF 50V C0G 0603"},
- "C57112": {"type": "basic", "stock": 6092984, "price": 0.0109, "desc": "10nF 50V X7R 0603"},
- "C1631": {"type": "basic", "stock": 365897, "price": 0.0055, "desc": "6.8nF 50V X7R 0603"},
- "C21122": {"type": "basic", "stock": 784489, "price": 0.0071, "desc": "22nF 50V X7R 0603"},
- "C53987": {"type": "basic", "stock": 1053609, "price": 0.0053, "desc": "4.7nF 50V X7R 0603"},
- "C9196": {"type": "basic", "stock": 2090071, "price": 0.0228, "desc": "1nF 2kV X7R 1206"},
- "C23255": {"type": "extended", "stock": 435877, "price": 0.002, "desc": "82R 0603"},
- "C177422": {"type": "extended", "stock": 88551, "price": 0.0015, "desc": "12.4k 0603"},
- "C23185": {"type": "basic", "stock": 1666319, "price": 0.0021, "desc": "49.9R 0603"},
- "C4275": {"type": "basic", "stock": 1675345, "price": 0.0026, "desc": "75R 0603"},
- "C22808": {"type": "basic", "stock": 1483472, "price": 0.0015, "desc": "150R 0603"},
- "C23140": {"type": "basic", "stock": 4584157, "price": 0.0024, "desc": "33R 0603"}
+{
+ "_source": "jlcpcb MCP component_search (JLCPCB/LCSC library), 2026-10-25; price = USD unit price at low qty",
+ "C14663": {
+  "type": "basic",
+  "stock": 44056271,
+  "price": 0.0084,
+  "desc": "100nF 50V X7R 0603 YAGEO"
+ },
+ "C23630": {
+  "type": "basic",
+  "stock": 3150654,
+  "price": 0.0125,
+  "desc": "2.2uF 16V X5R 0603 Samsung"
+ },
+ "C21117": {
+  "type": "basic",
+  "stock": 778183,
+  "price": 0.0107,
+  "desc": "33nF 50V X7R 0603 Samsung"
+ },
+ "C1669": {
+  "type": "extended",
+  "stock": 614782,
+  "price": 0.0054,
+  "desc": "4.7pF 50V C0G 0603 FH"
+ },
+ "C76690": {
+  "type": "extended",
+  "stock": 9257,
+  "price": 0.6285,
+  "desc": "22uF 25V X7R 1812 TDK"
+ },
+ "C340722": {
+  "type": "extended",
+  "stock": 2401,
+  "price": 0.389,
+  "desc": "100uF 16V elco 6.3x5.4 Nichicon UWT1C101MCL1GB"
+ },
+ "C12624": {
+  "type": "extended",
+  "stock": 454957,
+  "price": 0.0117,
+  "desc": "LED green 0603 KENTO KT-0603G"
+ },
+ "C2287": {
+  "type": "extended",
+  "stock": 123922,
+  "price": 0.0104,
+  "desc": "LED yellow 0603 KENTO KT-0603Y"
+ },
+ "C2286": {
+  "type": "basic",
+  "stock": 7825402,
+  "price": 0.0077,
+  "desc": "LED red 0603 KENTO KT-0603R"
+ },
+ "C72043": {
+  "type": "extended",
+  "stock": 0,
+  "price": 0.0239,
+  "desc": "LED green 0603 Everlight (out of stock)"
+ },
+ "C72038": {
+  "type": "extended",
+  "stock": 0,
+  "price": 0.0239,
+  "desc": "LED yellow 0603 Everlight (out of stock)"
+ },
+ "C165948": {
+  "type": "extended",
+  "stock": 324520,
+  "price": 0.1869,
+  "desc": "USB-C 16P HRO TYPE-C-31-M-12"
+ },
+ "C5120592": {
+  "type": "extended",
+  "stock": 1123,
+  "price": 2.0489,
+  "desc": "USB Mini-B Wuerth 65100516121"
+ },
+ "C32713283": {
+  "type": "extended",
+  "stock": 43641,
+  "price": 0.0519,
+  "desc": "Pin header 2x3 2.54 SMD hanxia"
+ },
+ "C3330868": {
+  "type": "extended",
+  "stock": 2933,
+  "price": 0.6137,
+  "desc": "Pin header 2x5 2.54 SMD Amphenol 54202-G0805LF"
+ },
+ "C306880": {
+  "type": "extended",
+  "stock": 2877,
+  "price": 0.2552,
+  "desc": "Tactile switch Omron B3SL-1002P"
+ },
+ "C701342": {
+  "type": "extended",
+  "stock": 17454,
+  "price": 4.5691,
+  "desc": "ESP32-WROOM-32E-N8"
+ },
+ "C108495": {
+  "type": "extended",
+  "stock": 12453,
+  "price": 0.3635,
+  "desc": "AZ1117IH-3.3TRG1 SOT-223"
+ },
+ "C100024": {
+  "type": "extended",
+  "stock": 33573,
+  "price": 0.3571,
+  "desc": "SN74LV1T34DBVR"
+ },
+ "C5119911": {
+  "type": "extended",
+  "stock": 3064,
+  "price": 0.743,
+  "desc": "PCA9306DC1Z"
+ },
+ "C23186": {
+  "type": "basic",
+  "stock": 22159080,
+  "price": 0.0015,
+  "desc": "5.1k 0603"
+ },
+ "C21189": {
+  "type": "basic",
+  "stock": 22304574,
+  "price": 0.0022,
+  "desc": "0R 0603"
+ },
+ "C22859": {
+  "type": "basic",
+  "stock": 6894616,
+  "price": 0.0032,
+  "desc": "10R 0603"
+ },
+ "C23345": {
+  "type": "basic",
+  "stock": 7128217,
+  "price": 0.0017,
+  "desc": "22R 0603"
+ },
+ "C22962": {
+  "type": "basic",
+  "stock": 3286070,
+  "price": 0.0033,
+  "desc": "220R 0603"
+ },
+ "C23138": {
+  "type": "basic",
+  "stock": 3785371,
+  "price": 0.002,
+  "desc": "330R 0603"
+ },
+ "C23228": {
+  "type": "basic",
+  "stock": 2018177,
+  "price": 0.0021,
+  "desc": "680R 0603"
+ },
+ "C21190": {
+  "type": "basic",
+  "stock": 35069048,
+  "price": 0.0017,
+  "desc": "1k 0603"
+ },
+ "C22978": {
+  "type": "basic",
+  "stock": 5577558,
+  "price": 0.0022,
+  "desc": "3.3k 0603"
+ },
+ "C23162": {
+  "type": "basic",
+  "stock": 17120858,
+  "price": 0.0028,
+  "desc": "4.7k 0603"
+ },
+ "C25804": {
+  "type": "basic",
+  "stock": 40652550,
+  "price": 0.0022,
+  "desc": "10k 0603"
+ },
+ "C25819": {
+  "type": "basic",
+  "stock": 3528647,
+  "price": 0.0035,
+  "desc": "47k 0603"
+ },
+ "C25803": {
+  "type": "basic",
+  "stock": 18212040,
+  "price": 0.0031,
+  "desc": "100k 0603"
+ },
+ "C22935": {
+  "type": "basic",
+  "stock": 5730584,
+  "price": 0.0018,
+  "desc": "1M 0603"
+ },
+ "C32843": {
+  "type": "extended",
+  "stock": 8872,
+  "price": 2.8295,
+  "desc": "WIZnet W5500 LQFP-48"
+ },
+ "C7193798": {
+  "type": "extended",
+  "stock": 621,
+  "price": 3.9653,
+  "desc": "Wuerth 749013011A LAN transformer"
+ },
+ "C6095310": {
+  "type": "extended",
+  "stock": 57,
+  "price": 4.993,
+  "desc": "Wuerth 634008137521 RJ45"
+ },
+ "C20476862": {
+  "type": "extended",
+  "stock": 383,
+  "price": 1.1669,
+  "desc": "Wuerth 690367290876 WR-MM 2x4"
+ },
+ "C596824": {
+  "type": "extended",
+  "stock": 1423,
+  "price": 0.3524,
+  "desc": "Abracon ABLS2-25.000MHZ-D4YF-T 18pF"
+ },
+ "C843271": {
+  "type": "extended",
+  "stock": 3806,
+  "price": 0.1948,
+  "desc": "2x5 female header SMD BOOMELE"
+ },
+ "C85840": {
+  "type": "extended",
+  "stock": 605375,
+  "price": 0.0346,
+  "desc": "Ferrite bead 220R@100MHz 0805 Murata"
+ },
+ "C1779": {
+  "type": "basic",
+  "stock": 2028470,
+  "price": 0.0343,
+  "desc": "4.7uF 25V X5R 0805"
+ },
+ "C45783": {
+  "type": "basic",
+  "stock": 4275456,
+  "price": 0.1912,
+  "desc": "22uF 25V X5R 0805"
+ },
+ "C1647": {
+  "type": "basic",
+  "stock": 275639,
+  "price": 0.0158,
+  "desc": "18pF 50V C0G 0603"
+ },
+ "C57112": {
+  "type": "basic",
+  "stock": 6092984,
+  "price": 0.0109,
+  "desc": "10nF 50V X7R 0603"
+ },
+ "C1631": {
+  "type": "basic",
+  "stock": 365897,
+  "price": 0.0055,
+  "desc": "6.8nF 50V X7R 0603"
+ },
+ "C21122": {
+  "type": "basic",
+  "stock": 784489,
+  "price": 0.0071,
+  "desc": "22nF 50V X7R 0603"
+ },
+ "C53987": {
+  "type": "basic",
+  "stock": 1053609,
+  "price": 0.0053,
+  "desc": "4.7nF 50V X7R 0603"
+ },
+ "C9196": {
+  "type": "basic",
+  "stock": 2090071,
+  "price": 0.0228,
+  "desc": "1nF 2kV X7R 1206"
+ },
+ "C23255": {
+  "type": "extended",
+  "stock": 435877,
+  "price": 0.002,
+  "desc": "82R 0603"
+ },
+ "C177422": {
+  "type": "extended",
+  "stock": 88551,
+  "price": 0.0015,
+  "desc": "12.4k 0603"
+ },
+ "C23185": {
+  "type": "basic",
+  "stock": 1666319,
+  "price": 0.0021,
+  "desc": "49.9R 0603"
+ },
+ "C4275": {
+  "type": "basic",
+  "stock": 1675345,
+  "price": 0.0026,
+  "desc": "75R 0603"
+ },
+ "C22808": {
+  "type": "basic",
+  "stock": 1483472,
+  "price": 0.0015,
+  "desc": "150R 0603"
+ },
+ "C23140": {
+  "type": "basic",
+  "stock": 4584157,
+  "price": 0.0024,
+  "desc": "33R 0603"
+ },
+ "C41417351": {
+  "type": "extended",
+  "stock": 18133,
+  "price": 0.0488,
+  "desc": "Pin header 2x3 2.54 right angle THT hanxia"
+ },
+ "C90074": {
+  "type": "extended",
+  "stock": 9700,
+  "price": 0.3548,
+  "desc": "Phoenix 1757242 MSTBA 2,5/2-G-5,08"
+ },
+ "C6074290": {
+  "type": "extended",
+  "stock": 0,
+  "price": 2.0178,
+  "desc": "WAGO 2086-1208 (no LCSC stock: Global Sourcing)"
+ },
+ "C1015": {
+  "type": "basic",
+  "stock": 2365737,
+  "price": 0.0257,
+  "desc": "Ferrite 100R@100MHz 0805 Sunlord GZ2012D101TF"
+ }
 }

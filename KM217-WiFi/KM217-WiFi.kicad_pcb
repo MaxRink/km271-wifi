@@ -280,7 +280,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -292,7 +292,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C306880"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -330,7 +330,7 @@
 		)
 		(path "/a78cce33-f1ae-48f5-8bf3-83ca2920d4a3")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.25 3.4)
@@ -7927,7 +7927,7 @@
 				)
 			)
 		)
-		(property "MPN" "WAGO 2086-1208"
+		(property "MPN" "2086-1208"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8059,7 +8059,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6074290"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8073,7 +8073,7 @@
 		)
 		(path "/6381c663-26fa-4e91-ae84-943d882baf4a")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -28.7 0)
@@ -9848,7 +9848,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9860,7 +9860,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C306880"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9898,7 +9898,7 @@
 		)
 		(path "/2586c64e-72fc-4aeb-a1eb-041f89394fcf")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.25 3.4)
@@ -10980,7 +10980,7 @@
 				)
 			)
 		)
-		(property "MPN" "088-2-006-0-S-XS0-1080"
+		(property "MPN" "HX PZ2.54-2x3P WC-A"
 			(at 227.35 -34.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11100,7 +11100,7 @@
 				)
 			)
 		)
-		(property "FT Rotation Offset" ""
+		(property "FT Rotation Offset" "270"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11112,7 +11112,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C41417351"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -11126,7 +11126,7 @@
 		)
 		(path "/a3d262b5-d34e-4dfb-8468-10ea4adaac1a")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 6.64 -1.33)
@@ -16910,7 +16910,7 @@
 				)
 			)
 		)
-		(property "MPN" "CTB9352/2"
+		(property "MPN" "1757242"
 			(at 187.29 193.8 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17042,7 +17042,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C90074"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -17056,7 +17056,7 @@
 		)
 		(path "/34d73292-293b-415c-b248-b39a82687f77")
 		(sheetfile "KM217-WiFi.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 8.73 10.11)

@@ -108,10 +108,29 @@
    "LCSC": "C340722"
   },
   "SW1": {
-   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
+   "LCSC": "C306880",
+   "MPN": "B3SL-1002P",
+   "FT Rotation Offset": "270"
   },
   "SW2": {
-   "Footprint": "the78mole:SW_SPST_B3SL-1002P"
+   "LCSC": "C306880",
+   "MPN": "B3SL-1002P",
+   "FT Rotation Offset": "270"
+  },
+  "J4": {
+   "LCSC": "C41417351",
+   "MPN": "HX PZ2.54-2x3P WC-A",
+   "FT Rotation Offset": "270",
+   "FT Position Offset": ""
+  },
+  "J5": {
+   "LCSC": "C90074",
+   "MPN": "1757242",
+   "FT Position Offset": ""
+  },
+  "J6": {
+   "LCSC": "C6074290",
+   "MPN": "2086-1208"
   }
  }
 }

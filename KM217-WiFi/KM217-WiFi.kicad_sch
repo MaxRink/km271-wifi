@@ -16152,7 +16152,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2586c64e-72fc-4aeb-a1eb-041f89394fcf")
 		(property "Reference" "SW1"
 			(at 245.745 146.6849 90)
@@ -16170,6 +16170,24 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C306880"
+			(at 244.475 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 244.475 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "the78mole:SW_SPST_B3SL-1002P"
@@ -17236,7 +17254,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d73292-293b-415c-b248-b39a82687f77")
 		(property "Reference" "J5"
@@ -17255,6 +17273,24 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C90074"
+			(at 77.47 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 77.47 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal"
@@ -17293,7 +17329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CTB9352/2"
+		(property "MPN" "1757242"
 			(at 77.47 55.245 0)
 			(effects
 				(font
@@ -21383,7 +21419,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6381c663-26fa-4e91-ae84-943d882baf4a")
 		(property "Reference" "J6"
@@ -21400,6 +21436,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C6074290"
+			(at 109.22 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "the78mole:WAGO 2086-1208"
@@ -21429,7 +21474,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "WAGO 2086-1208"
+		(property "MPN" "2086-1208"
 			(at 109.22 100.33 0)
 			(effects
 				(font
@@ -25153,7 +25198,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a3d262b5-d34e-4dfb-8468-10ea4adaac1a")
 		(property "Reference" "J4"
 			(at 280.035 26.035 0)
@@ -25171,6 +25216,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C41417351"
+			(at 281.305 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 281.305 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 281.305 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal"
@@ -25200,7 +25272,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "088-2-006-0-S-XS0-1080"
+		(property "MPN" "HX PZ2.54-2x3P WC-A"
 			(at 281.305 34.29 0)
 			(effects
 				(font
@@ -25288,7 +25360,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a78cce33-f1ae-48f5-8bf3-83ca2920d4a3")
 		(property "Reference" "SW2"
 			(at 255.905 146.6849 90)
@@ -25306,6 +25378,24 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C306880"
+			(at 254.635 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "270"
+			(at 254.635 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "the78mole:SW_SPST_B3SL-1002P"

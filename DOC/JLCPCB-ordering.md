@@ -49,6 +49,11 @@ price ($4.00 / 5 pcs, 2-layer HASL, Oct 2026), and shrinking needs a re-route of
 | ETH TR1 | Würth 749013011A | **kept** (C7193798) | — | Pulse H1601CE: pin names not published in JLC data, pinout unverified | Kept Würth |
 | ETH J2 | Würth 634008137521 | **kept** (C6095310, 57 in stock) | no stocked footprint-identical alternative found | — | Kept; enough for 5 boards |
 | J2 | Würth 65100516121 USB Mini-B | HRO TYPE-C-31-M-12 (C165948, 324k stock) | KiCad `USB_C_Receptacle_HRO_TYPE-C-31-M-12` = HRO recommended layout (16 SMD tails, 4 plated shell slots, 2 NPTH pegs); pin table A1/A12/B1/B12 GND, A4/A9/B4/B9 VBUS, A5 CC1, B5 CC2 checked against HRO drawing | 5 A / 20 V. J2 was power-only (D+/D-/ID unconnected), so D+/D-/SBU stay unconnected; CC1 and CC2 each get their own 5.1 kΩ to GND (R69/R70, basic C23186) so USB-C sources supply 5 V; shield via R60 (22 Ω) to GND as before | Clean. Mouth at the same top edge (0.3 mm overhang like Mini-B), centre unchanged in x, origin 2.75 mm closer to the edge; height 3.2 mm vs 4 mm. Shell legs are plated slots: JLC solders them with paste-in-hole (standard for this part); no GND vias or GND pour under the metal shell (rule area `USB_SHELL_NO_POUR`) |
+| SW1, SW2 (USER2/USER1) | DNP | **fitted**: Omron B3SL-1002P (C306880), same part as SW3/SW4 | same footprint | — | Clean; CPL rotation 270 like SW3/SW4 |
+| J4 DEBUG | DNP | **fitted**: hanxia HX PZ2.54-2x3P WC-A (C41417351, 18k stock), 2×3 2.54 mm right-angle THT | KiCad `PinHeader_2x03_P2.54mm_Horizontal`, pad fit 0.00 mm | 3 A, gold | Clean; CPL rotation correction 270 |
+| J5 ATS | DNP | **fitted**: Phoenix MSTBA 2,5/2-G-5,08 = 1757242 (C90074), exact MPN of the footprint | same footprint, pad fit 0.00 mm | — | Clean; boiler-side pinout unchanged |
+| J6 TSENS | DNP | **fitted**: WAGO 2086-1208 (C6074290), exact MPN of the footprint | same footprint | — | **No LCSC stock (Oct 2026)**, and no 8-pole 2086 is stocked. Kept by decision; order via JLC Global Sourcing or consign (Mouser/DigiKey stock it) |
+| ETH L2 | Murata 220 Ω@100 MHz 0805 (C85840, extended) | Sunlord GZ2012D101TF (C1015, **basic**) | same 0805 | 100 Ω@100 MHz, 150 mΩ DCR, 800 mA. Feeds W5500 AVDD + TX centre-tap (≈ 0.13 A max → 20 mV drop); 6 decouplers C23–C27/C30 after it | Clean; −1 extended |
 | passives | generic | JLC basic parts | same 0603/0805 footprints | 100 n C14663 50 V X7R, 2u2 C23630 16 V X5R (rails ≤ 5 V) | Clean |
 | D1, D2, ETH D10 (green), D3 (yellow), D4, ETH D9 (red) | generic 0603 | KENTO KT-0603G C12624 (455k stock), KT-0603Y C2287 (124k), KT-0603R C2286 (basic) | same 0603 | Everlight C72043/C72038 from the original brief are out of stock (0) and extended; no basic green/yellow exists. Green Vf 3.1 V on the 3.3 V rail via 680 Ω gives ≈ 0.3 mA, as with the original part: dim but visible | Clean; +2 extended (main), +1 (ETH) |
 
@@ -106,13 +111,14 @@ Fabrication Toolkit dropped U6 (PCA9306) and others because the original board h
 | | Main | ETH |
 |---|---|---|
 | PCB (JLC quote) | $21.10 (2-layer ENIG + gold fingers) | $4.00 (2-layer HASL) |
-| Extended parts (×$3) | 13 → $39 | 11 → $33 |
-| Basic parts | 18 | 20 |
-| Parts (LCSC unit prices × 5) | ≈ $48 | ≈ $73 |
+| Extended parts (×$3) | 16 → $48 | 10 → $30 |
+| Basic parts | 18 | 21 |
+| Parts (LCSC unit prices × 5) | ≈ $65 (J6 via Global Sourcing, price may differ) | ≈ $73 |
+| THT soldering (J4, J5, J6: 24 joints) | ≈ $5 | — |
 | Standard PCBA, 2 sides (setup + stencils, est.) | ≈ $55 | ≈ $55 |
-| **Subtotal** | **≈ $163** | **≈ $165** |
+| **Subtotal** | **≈ $194** | **≈ $162** |
 
-Total ≈ $328 + shipping (≈ €320 incl. shipping). Making both boards single-sided
+Total ≈ $356 + shipping (≈ €345 incl. shipping). Making both boards single-sided
 removes the second assembly side (≈ $25–30 per board); see branch `single-sided`.
 Exact PCBA cost needs the gerber upload on jlcpcb.com.
 
