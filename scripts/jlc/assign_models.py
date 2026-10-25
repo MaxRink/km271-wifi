@@ -12,7 +12,7 @@ base = '${KIPRJMOD}/' + rel + '/'
 STOCK = '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels'
 # footprint id -> (model file, rotate z, offset x, offset y (y up)) or ('box', file, height, rgb)
 MODELS = {
-    'Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12': ('USB-C_HRO_TYPE-C-31-M-12.step', 0, 0.0, 1.575),
+    'Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12': ('USB-C_HRO_TYPE-C-31-M-12.step', 180, 0.0, 1.575),
     'Transformer_SMD:Transformer_Ethernet_Wuerth_749013011A': ('Wuerth_749013011A.step', 270, 0.0, -0.005),
     'the78mole:WE-MJ-634008137521': ('box', 'Wuerth_634008137521_RJ45_approx.wrl', 13.4, '0.75 0.75 0.75'),
     'the78mole:WE-MM-690367290876': ('box', 'Wuerth_690367290876_WR-MM_approx.wrl', 5.75, '0.8 0.15 0.1'),
